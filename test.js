@@ -36,7 +36,6 @@ describe(('You are awesome, aren\'t you?'), () => {
     const object = {};
 
     object[property] = propertyValue;
-
     assert.equal(Object.keys(object).length, 0);
     assert.equal(object[property], propertyValue);
   });
